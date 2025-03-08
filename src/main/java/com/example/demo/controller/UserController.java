@@ -20,4 +20,9 @@ public class UserController {
         return "data";
     }
 
+    @GetMapping("/getLike")
+    public String getLike (){
+        return "Like";
+    }
+
 }
