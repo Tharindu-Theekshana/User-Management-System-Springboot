@@ -25,4 +25,10 @@ public class UserController {
         return "Like";
     }
 
+    @GetMapping("/getComment")
+    public String getComment (){
+        return "cpmment";
+    }
+
+
 }
