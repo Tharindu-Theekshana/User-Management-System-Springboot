@@ -20,11 +20,6 @@ public class UserController {
         return "data";
     }
 
-    @GetMapping("/getLike")
-    public String getLike (){
-        return "Like";
-    }
-
     @GetMapping("/getComment")
     public String getComment (){
         return "cpmment";
