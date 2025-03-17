@@ -15,15 +15,7 @@ public class UserController {
         return "one user jnsjdhsjdj";
     }
 
-    @GetMapping("/getData")
-    public String getData (){
-        return "data";
-    }
-
-    @GetMapping("/getComment")
-    public String getComment (){
-        return "cpmment";
-    }
+   
 
 
 }
