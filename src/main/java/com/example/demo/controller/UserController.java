@@ -20,6 +20,11 @@ public class UserController {
         return "one user jnsjdhsjdj";
     }
 
+    @GetMapping("/getUserName")
+    public String getUserName (){
+        return "one user jnsjdhsjdj";
+    }
+
 
 
 
