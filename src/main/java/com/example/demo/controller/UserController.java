@@ -15,6 +15,11 @@ public class UserController {
         return "one user jnsjdhsjdj";
     }
 
+    @GetMapping("/getdata")
+    public String getdata (){
+        return "one user jnsjdhsjdj";
+    }
+
 
 
 
