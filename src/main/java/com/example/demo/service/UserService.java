@@ -29,4 +29,14 @@ public class UserService {
         userRepo.save(modelMapper.map(userDto, User.class));
         return userDto;
     }
+
+    public UserDto updateUser(UserDto userDto){
+        userRepo.save(modelMapper.map(userDto, User.class));
+        return userDto;
+    }
+
+    public String deleteUser(UserDto userDto){
+        userRepo.delete(modelMapper.map(userDto, User.class));
+        return "user deleted!";
+    }
 }
