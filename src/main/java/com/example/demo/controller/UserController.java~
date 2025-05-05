@@ -37,11 +37,6 @@ public class UserController {
         return userService.deleteUser(userId);
     }
 
-    @GetMapping("/displayUSer/{userId}")
-    public UserDto displayUser(@PathVariable int userId){
-        return userService.displayUser(userId);
-    }
-
 
 
 
