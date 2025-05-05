@@ -5,6 +5,11 @@ target/
 !**/src/test/**/target/
 src/main/resources/
 
+
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+
 ### STS ###
 .apt_generated
 .classpath
